@@ -71,7 +71,7 @@ function renderWhiteSauce() {
   if (state.whiteSauce) {
     sauce.classList.add('sauce-white'); 
     } else {
-      sauce.classList.remove('sauce-white'); ;
+      sauce.classList.remove('sauce-white');
      }
 }
 
@@ -106,11 +106,36 @@ function renderButtons() {
       
     }
   }
+  //the attribute  is the value that the class has!! ie (href) or (class) -- not 
 
-
+//if (state.pepperoni === true) {
+  document.querySelector.(".btn-pepperoni").classList.add("active")
+}
 
 function renderPrice() {
   // Iteration 4: change the HTML of `<aside class="panel price">`
+let price = basePrice;
+let list = '';
+for (let xx in xx) {
+    if (
+      user .innerText = `price`
+      .innerHTML = list;
+}
+ 
+//one solution using a look up object
+// function renderButtons() {
+//   for (const key in ingredientClasses) {
+//     if (state[key]) {
+//       document
+//         .querySelector(`.btn-${ingredientClasses[key]}`)
+//         .classList.add("active");
+//     } else
+//       document
+//         .querySelector(`.btn-${ingredientClasses[key]}`)
+//         .classList.remove("active");
+//   }
+// }
+
   }
 
 renderEverything(); {
